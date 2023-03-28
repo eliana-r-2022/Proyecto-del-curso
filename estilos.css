@@ -1,0 +1,126 @@
+
+body
+{
+    background-color: black;
+    /*atributos para insertar imagen como fondo*/
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: scroll;
+    
+}
+
+h1
+{
+    color:white;
+    font-size: 40px;
+    margin-left: auto;
+    text-align: center;
+    /*Fuente de google fonts*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/*este es un identificador de un unico h3(miID)*/
+#miID
+{
+    color:silver;
+
+}
+
+.miClase
+{
+    color:grey;
+}
+/*Identificador ID de una imagen*/
+#miIMG
+{
+    margin-left: 420px;
+    width: 500px;
+    height:500px;
+    border-radius: 2px;
+
+}
+/*Esta es una clase*/
+.titulo{
+    padding: 20px;
+    margin: 10px;
+    border: 25px;
+    text-align:center;
+
+}
+/*Esta es una clase de una lista de determinadas imagenes*/
+.imgLista
+{
+    
+    width: 318px;
+    height: 100px;
+    box-shadow: 10px 5px 5px black;
+/*Esto lo que hace es agregar columnas a un texto o parrafo
+    column-count: 10px;
+    column-gap: 50px;
+    column-rule: 4px double #ff00ff;*/
+
+}
+
+/**{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}*/
+
+/*estilos del formulario+*/
+.form-contact
+{
+   width: 400px;
+   background: grey;
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   font-family: sans-serif;
+   text-align: center;
+   /*colores gradientes en el contenedor del formulario*/
+   background-image: linear-gradient(to bottom right, grey, black);
+   border-radius: 5px;
+}
+
+.boton
+{
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+ }
+
+ /*barra de menu <nav>*/
+ .menu
+ {
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    /*redondea bordes de cualquier contenedor*/
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+ }
+
+ .menu li a
+ {
+    text-decoration: none;
+    padding: 40%;
+    color: azure;
+    display: block;
+
+ }
+
+ .menu li
+ {
+    display: inline-block;
+    text-align: center;
+
+ }

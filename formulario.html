@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscripción</title>
+</head>
+<body>
+    <!--Creación de un formulario de inscripción a cursos-->
+    <h1>Com<b>IT</b></h1>
+    <h3><strong>&nbsp;Formulario de inscripción</strong></h3>
+    <br>
+    <form method="get" action="procesa.php">
+        <label for="nombre"><i>Nombre</i></label>
+        <input type="text" id="nombre" name="nombre" required />
+        <label for="apellido"><i>&nbsp;&nbsp;Apellido</i></label>
+        <input type="text" id="apellido" name="apellido" required />
+        <br>
+        <br>
+        <label for="date"><i>Fecha de nacimiento</i></label>
+        <input type="date" id="date" name="date" required />
+        <br>
+        <br>
+        <label for="sexo"><i>Sexo:</i></label>
+        <select name="sexo">
+            <option value="1">Seleccionar</option>
+            <option value="2">Masculino</option>
+            <option value="3">Femenino</option>
+            <option value="4">Sin género</option>
+          </select>
+        <br>
+        <br>
+        <label for="tel"><i>Teléfono</i></label>
+        <input type="tel" id="tel" name="tel" />
+        <label for="email"><i>&nbsp;&nbsp;E-mail</i></label>
+        <input type="text" id="email" name="email" />
+        <br>
+        <br>
+        <label for="trabajo"><i>Ocupación:</i></label>
+        <select name="trabajo">
+            <option value="1">Seleccionar</option>
+            <option value="2">Empleado/a</option>
+            <option value="3">Desempleado/a</option>
+            <option value="4">Estudiante</option>
+          </select>
+        <br>
+        <br>
+        <label for="cursos"><i>Cursos disponibles:</i></label>
+        <select name="cursos">
+            <option value="1">Seleccionar</option>
+            <option value="2">Intro Programación</option>
+            <option value="3">Desarrollo Web </option>
+            <option value="4">Programación Unity</option>
+          </select>
+        <br>
+        <br>
+        <label for="dias"><i>Días disponibles:</i></label>
+        <input type="radio" name="date" value="Lunes">&nbsp;Lunes y Miércoles
+        <input type="radio" name="date" value="Martes">&nbsp;Martes y Jueves 
+        <input type="radio" name="date" value="Miércoles">&nbsp;Miércoles y Viernes
+        <br>
+        <br>
+        <label for="turnos"><i>Turno:</i></label>
+        <select name="turnos">
+            <option value="1">Seleccionar</option>
+            <option value="2">Mañana</option>
+            <option value="3">Tarde</option>
+            <option value="4">Noche</option>
+          </select>
+          <br>
+          <br>
+          <hr>
+          <br>
+        <input type="submit" value="Enviar">  
+    </form>
+
+</body>
+</html>
