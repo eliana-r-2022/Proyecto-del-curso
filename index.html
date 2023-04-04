@@ -7,6 +7,7 @@
     <!--Linkeo de archivo css del proyecto-->
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>Sitio Web</title>
+    <!--Linkeo para uso de Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -14,46 +15,112 @@
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
   rel="stylesheet">
+  <!--Libreria javascript de Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!--Linkeo carpeta de js en el index.html-->
+  <script type="text/javascript" src="js/Script.js"></script>
+  <script type="text/javascript" src="ejercicios.js"></script>
+  <script type="text/javascript" src="ejercicio2.js"></script>
+  <!--Linkeo para fontawesome(íconos)-->
+  <script src="https://kit.fontawesome.com/9b0368be3d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--Código javascript-->
+    <script type="text/javascript">
+        alert("Bienvenido!!");
+    </script>
     <header>
+        <div class="logo">
+            <img src="img/Logo.jpeg" alt="logo del estudio" class="logo-img">
+        </div>
     </header>
-    <nav>
-        <ul class="menu">
+       <!--Navbar Bootstrap 5-->
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="consultas.html">Consultas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="novedades.html">Novedades</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+            <!--<nav>
+        <div class="container-fluid-nav">
+        <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="servicios.html">Servicios</a></li>
         <li><a href="consultas.html">Consultas</a></li>
         <li><a href="novedades.html">Novedades</a></li>
         </ul>
-    </nav>
-    <div class="titulo"><h1><strong>Estudio Jurídico</strong></Jur></h1></div>
+        </div>
+            </nav>-->
+    <br>
+    <br>
+    <div class="titulo"><h1><strong>Estudio Jurídico</strong></Jur></h1>
     <img id="miIMG" alt="estudio" src="img/Logo.jpeg">
+    </div>
     <br>
     <br>
     <br>
-    <!--Este es un contenedor con bootstrap-->
+    <!--Este es un contenedor de bootstrap-->
     <div class="container">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <!-- vamos con el contenido acá -->
             <h2><b><i>Historia</i></b></h2>
-            <p>El estudio familiar Angeli nace en el 20..</p>
-    <hr>
-    <br>
-    <h2><b><i>Portfolio</i></b></h2>
-    <p>Abogada recibida de la UBA Gisela Natailia Diaz</p>
+            <p>Gisela Natalia Diaz, abogada recibida de la UBA en el año 2018 con orientación en Derecho Penal y Derecho Público administrativo. 
+              Prosigue mis estudios superiores especializandome y profundizando en derecho público. Actualmente me encuentro cursando la maestría, 
+              con intensiones de  profundizar la capacitación para brindar un mejor servicio.El estudio familiar Angeli nace en el 20...</p>
+            <h2><b><i>Portfolio</i></b></h2>
+            <p>GISELA NATALIA DIAZ
+              Licenciada recibida de la Universidad de Buenos Aires(UBA).
+              <b>2008</b> Titulo en Bachillerato Escuela Técnica N° 8 D.E. N° 13 "Paula Albarracín de Sarmiento" - CABA.
+              <b>2015</b> Titulo en Bachiller Universitario en Derecho. Universidad de Buenos Aires - Ciudad Autónoma de Buenos Aires.
+              <b>2018</b> Titulo de Abogada, con orientación en Derecho Penal y Derecho Público Administrativo. Universidad de Buenos Aires - Ciudad Autónoma de Buenos Aires.
+              <b>2021</b>Profesorado para la Enseñanza Media y Superior en Ciencias Jurídicas. Universidad de Buenos Aires - Ciudad Autónoma de Buenos Aires. 
+              <b>2022</b> Posgrado - Especialización en Defensa del Estado - ABOGAR - Carrera de Estado. Escuela del Cuerpo de Abogados del Estado de la Procuración del Tesoro de la Nación (E.C.A.E.).
+              <i><b> Cursos y talleres de actualización en Abogacía</b></i>
+              <b>11-12/2018</b> Medios de prueba y medios de impugnación en el proceso civil y laboral. 
+              Dictado por los Dres. Leonardo Label y Noelia Grande. U.B.A.
+              <b>05/2021</b> Cómo redactar un recurso administrativo. Dictado por el Dr. Gregorio Flax. U.B.A.
+              <b>05/2021</b> Cómo presentar una demanda en el Sistema Interamericano de Derechos Humanos. Dictado por el Dr. Gregorio Flax. U.B.A.
+              <b>05/2021</b> Responsabilidad civil por mala praxis médica. Dictado por las Dras. Adriana Morón y Raquel Susana Traiman. U.B.A.
+              <b>06-07/2021</b> Accidentes de tránsito. Dictado por los Dres. Oscar Ameal, Pablo Aguirre, Sandra Dell'Osa, Waldo Sobrino y Elisa Romano. U.B.A.
+              <b>07/2021</b> Las neurociencias y su aplicación práctica en el Derecho de Daños. Dictado por el Dr. Fernando Shina. U.B.A.
+              <b>07/2021</b> Acceso a la información pública. Procedimiento administrativo y judicial. Dictado por el Dr. José Lucas Magioncalda. U.B.A.
+              <b>08/2021</b> Teoría y práctica de las relaciones de consumo en Argentina. Dictada por las/os profesoras/es Carlos Hernández, Belén Japaze, María Constanza Garzino y Sebastián Barocelli. 
+              <b>08/2021</b> Cuestiones complejas en el Proceso Civil. Dictada por las/os profesoras/es Elena Casabe, Oscar Finkelberg y Jorge Kielmanovich.
+              <b>10/2021</b> El impacto disruptivo de las neurociencias en el derecho de daños. Dictado por las/os profesoras/es Fernando Shina, Waldo Sobrino y Elisa Romano. 
+              <b>10/2021</b> Liquidaciones laborales. Dictado por el profesor Mariano Fernández.
+              <b>10/2021</b> La prueba en el proceso civil. Dictado por el profesor Fernando Mendoza Cacciatore. 
+              <b>10-11/2021</b> Seminario sobre Herramientas para la Elaboración de Textos Jurídicos libres de Estereotipos de Género. Se enmarca en el ámbito de la Procuración del Tesoro de la Nación, dictado por la Escuela del Cuerpo de Abogados/as del Estado.
+              <b>09-10-11-12/2021</b> Derechos de niños, niñas y adolescentes: abordajes prácticos. Dictado por las profesoras Blanca Escurra Vera, Carolina Stanley, Fabiana Cicarelli, Lorena Vuotto, Lucrecia Sanmartino, María de los Ángeles Giménez, María Virginia Deymonnaz, Mariana Pérez Acosta, Marisa Graham, Mary Beloff, Pilar Molina y Silvia García de Ghiglino; y los profesores Diego Freedman, Francisco Ghiglino, Gustavo Halbide, Mariano Kierszenbaum y Martiniano Terragni.
+              <b>04-05/10/2022</b> II Congreso Internacional de Integración Regional y Derechos Humanos: Puntos de Convergencia. 
+              Cofinanciado por el programa Erasmus + de la Unión Europea.
+              <b>19-24/05, 21/06,</b> Seminario internacional de derecho Comparado en materia de Anticorrupción y Responsabilidad
+              <b>05/07, 09/08, 06/09,</p> Administrativa de los Servidores Públicos y los Particulares. Dictado por el Tribunal Federal de 
+              <b>13/10/2022</b> Justicia Administrativa de México</p>        
         </div>
     </div>
 </div>
-
-<button class="btn btn-primary">APRETA</button>
-<button class="btn btn-outline-success">APRETA 2</button>
+<!--Botones de Bootstrap-->
+<!--<button class="btn btn-primary">APRETA</button>
+<button class="btn btn-outline-success">APRETA 2</button>-->
 <!--Este boton de "warning" puede servir para cuando una seccion del sitio esta en construccion y no tiene contenido adherido temporariamente por ejemplo-->
-<button class="btn btn-lg btn-warning" disabled>APRETA 3</button>
-<!--Boton extendido hasta el ancho de la pantalla-->
-<button class="btn btn-block">APRETA 4</button>
-<!--Boton de tipo link-->
-<button class="btn btn-link">APRETA 5</button>
+<!--<button class="btn btn-lg btn-warning" disabled>APRETA 3</button>-->
+<!--<button class="btn btn-block">APRETA 4</button>-->
+<!--<button class="btn btn-link">APRETA 5</button>-->
+    <hr>
+    <br>
     <!--Esto es un video de youtube insertado al html-->
     <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/7OqthXWsTsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <!--Esto es un audio subido desde la carpeta audio de mi proyecto-->
@@ -62,7 +129,12 @@
 
 
     <footer>
-
+        <!--Contenedor de Bootstrap-->
+        <div class="container-fluid">
+             <!--Links de los inconos de fontawesome-->
+    <i class="fa-brands fa-instagram" "icono" style="color: #fcfcfc;"></i>
+    <i class="fa-brands fa-whatsapp" "icono" style="color: #f1f2f4;"></i>
+        </div>
     </footer>
 
 
