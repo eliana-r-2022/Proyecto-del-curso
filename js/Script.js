@@ -1,3 +1,5 @@
-var num1=8;
-var num2=5;
-console.log(num1-num2);
+window.addEventListener("load", function(){
+    document.getElementById("form").addEventListener("click"), function(){
+        alert("El envio del formulario es correcto!");
+    }
+})
